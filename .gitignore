@@ -1,0 +1,32 @@
+# --- Completed Business Data (CRITICAL) ---
+# Do not track your actual customized company policies
+/completed-policies/
+/my-company-policy.md
+
+# Do not track real incident reports containing private data
+/incident-reports/
+/reports/
+*Incident_Report_*.md
+
+# Do not track private contact lists or training logs
+/training-records/
+/emergency-contacts-private.md
+staff_list.csv
+
+# --- Build & Export ---
+# If you convert these templates to PDF/Docx for printing
+*.pdf
+*.docx
+*.rtf
+/exports/
+
+# --- System & Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Temp Files ---
+*.tmp
+*.bak
+*~
